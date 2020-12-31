@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ApiAccessor.Models
 {
-    public class PersonResponseModel : PersonModel
+    public class PersonResponseModel : PersonModel, IResponseModel
     {
         public int TotalPeople { get; set; }
         public string CoutryId { get; set; } = null;

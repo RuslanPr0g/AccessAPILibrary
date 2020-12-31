@@ -7,6 +7,8 @@ namespace ACCESSOR
     {
         static void Main(string[] args)
         {
+            PersonAccessor personAccessor = new PersonAccessor();
+
             Console.WriteLine("Welcome here!" + Environment.NewLine);
 
             Console.WriteLine("Initializing client...");
