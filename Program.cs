@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ApiAccessor;
+using System;
 
 namespace ACCESSOR
 {
@@ -6,7 +7,13 @@ namespace ACCESSOR
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Welcome here!" + Environment.NewLine);
+
+            Console.WriteLine("Initializing client...");
+            ApiHelper.InitializeClient();
+            Console.WriteLine("Client was successfully initialized!");
+
+
         }
     }
 }
